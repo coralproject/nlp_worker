@@ -1,0 +1,4 @@
+# set the runtime language; this should be "python" for Python workers
+runtime "python"
+# exec is the file that will be executed when you queue a task
+exec "nlp.py"
